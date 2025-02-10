@@ -1,0 +1,21 @@
+根据执行结果，我们可以看到“Components”和“Accessories”类别在不同年份的销售数据，以及哪些年份“Components”的总销售额高于“Accessories”。具体分析如下：
+
+1. **数据概览**：
+   - `components_data` 显示了2015年至2017年间“Components”类别的各个产品的销售情况，包括链条（Chains）、刹车（Brakes）、车把（Handlebars）等。
+   - `accessories_data` 则展示了同一时期“Accessories”类别的产品销售情况，如头盔（Helmets）、灯具（Lights）、锁（Locks）等。
+
+2. **销售额汇总**：
+   - 在 `components_sales` 中，我们可以看到每年“Components”类别的总销售额。
+   - 在 `accessories_sales` 中，记录了“Accessories”类别的总销售额。
+
+3. **合并与比较**：
+   - `merged_sales` 将两个类别的销售额数据合并在一起，便于进行比较。
+   - 通过筛选条件，我们找到了 `years_with_higher_components`，即“Components”的销售额高于“Accessories”的年份。
+
+4. **结果分析**：
+   - 从结果中可以看到，只有**2016年**是“Components”的销售额高于“Accessories”的年份。在这一年，“Components”的总销售额为$3,400，而“Accessories”的总销售额为$17,000。这表明在2016年，尽管“Components”的销售额相对较低，但仍然是唯一一个与“Accessories”进行比较的年份。
+
+5. **结论**：
+   - 通过这次分析，我们可以得出结论：在2015年至2017年间，只有2016年“Components”的销售额高于“Accessories”。这可能反映了市场需求的变化，或者是某些产品在特定年份的受欢迎程度不同。商家可以利用这些信息来调整产品策略和市场推广，以便更好地满足消费者需求。
+
+综上所述，这项分析为理解“Components”和“Accessories”类别的市场表现提供了重要的见解，帮助商家在未来的决策中做出更为明智的选择。
